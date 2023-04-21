@@ -31,7 +31,6 @@ header a:hover{
 header{
     padding: 20px 0;
     background-color:black;
-    
     height: 100px;
 }
 
@@ -61,19 +60,28 @@ header{
      .typing-animation{
         animation: blinkcursor 500ms infinite normal, typing 4s steps(40) 1s normal both;
     }
-     
+     .imagem {
+        display:inline-block; 
+        margin-top: 10%;
+     }
     #text{
         margin:0 auto;
         font-size: 35px;
         font-family: "Special Elite", monospace ;
         overflow: hidden;
         text-align: justify;
-        margin-left: 250px;
-        margin-right: 250px;
-        margin-top: 110px;
+        display:inline-block;
+        margin: 200px 200px 200px 100px;
+
+    }
+    #corpo{
+        display:inline-flex;
+    
     }
 
      footer{
-        color:white;
-        margin-top: 580px;    
+       color:white;
+       margin-top: 100px;  
+       position: fixed;
+       bottom:0;
      }
